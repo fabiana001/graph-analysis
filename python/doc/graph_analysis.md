@@ -24,8 +24,8 @@ Finally, clustering algorithms based on graphs can be applied on G.
 ## Graph Visualization
 The extracted graph could be easily visualized for identifying components (i.e. completely disconnected subgraphs) and explicit relationships among nodes. The idea is that the graph is very sparse, i.e. it has a low number of edges compared o the maximum number of possible edges. Graphs with a number of edges on the order of one, two or three times the number of nodes are often good for visualizing, and many different layout techniques will work well.
 
-![Graph clustering example](images/infocamere_sample1.png)
-![Graph clustering example](images/infocamere_sample2.pdf)
+![Graph clustering example 1](images/infocamere_sample1.png)
+
 ## Graph clustering
 Graph Clustering techniques are widely used in detecting densely connected graphs from a graph network. The goal of graph clustering is to partition vertices in a graph into different clusters based on various criteria such as vertex connectivity or neighborhood similarity. 
 
@@ -46,6 +46,8 @@ the structural and attribute similarities.
 In the following we show a clustering example of a co-author graph based on three different criteria (e.g. structure-based clustering, attribute-based clustering, structural/attribute clustering). In this graph a vertex represents an author and an edge represents the coauthor relationship between two authors. In addition, each node is characterized by an attribute which describe the vertex
 property, i.e. . author's primary topic. 
 
-![Graph clustering example](images/clustering.jpg)
+![Graph clustering example](images/clustering.png)
+
+
 Based on existing structural/attribute clustering algorithms, we enrich our input graph G with node' attributes information in the way to obtain a new and denser graph G'. 
 
