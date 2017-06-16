@@ -1,5 +1,5 @@
 
-Analysis of Infocamere data though cluster/community discovering
+Analysis of Infocamere dataset though cluster/community discovering
 ===================
 ## Data collection
 The collection contains data about organizations, i.e. id_code, type, financial value of the company, involved people and their roles.
@@ -15,6 +15,7 @@ For applying social network algorithms we have to convert the input dataset into
     * persona-fisica;
     * persona-giuridica;
     * soggetto-controllante.
+    
     The output of this step is for each document the tuple (i, L), where i is the id_code of the current company and L = {(j, l_j)} is the set of companies/people (i.e. j ) involved with i and their relationship (i.e. l_j) (e.g. anagrafica-titolare, presona-fisica, etc.).
        
  2. Graph generation: given a company i and a list of relationships L = {(j, l_j)| j is the person/company, l_j is its role} extracted in Step 1, the graph G is obtained by adding to the node set V the set V' = {i, j_w| (j_w, l_w) \in L}  and to the edge set E the set E' = {(i, j_w, l_w)| (j_w, l_w) \in L}.
