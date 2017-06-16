@@ -26,6 +26,11 @@ Finally, clustering algorithms based on graphs can be applied on G.
 The extracted graph could be easily visualized for identifying components (i.e. completely disconnected subgraphs) and explicit relationships among nodes. The idea is that the graph is very sparse, i.e. it has a low number of edges compared o the maximum number of possible edges. Graphs with a number of edges on the order of one, two or three times the number of nodes are often good for visualizing, and many different layout techniques will work well.
 
 ![Graph clustering example 1](images/infocamere_sample1.png)
+*Example of infocamere graph on a dataset of 100 documents. Triangular nodes are people, circular nodes are companies*
+
+<!--[Graph clustering example2](images/infocamere_sample2.pdf)
+*Example of betweenness centrality computation. Triangular nodes are people, circular nodes are companies*
+-->
 
 ## Graph clustering
 Graph Clustering techniques are widely used in detecting densely connected graphs from a graph network. The goal of graph clustering is to partition vertices in a graph into different clusters based on various criteria such as vertex connectivity or neighborhood similarity. 
