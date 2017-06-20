@@ -1,5 +1,5 @@
 
-Analysis of Infocamere dataset though cluster/community discovering
+Analysis of Infocamere dataset through cluster/community discovering
 ===================
 ## Data collection
 The collection contains data about organizations, i.e. id_code, type, financial value of the company, involved people and their roles.
